@@ -1,0 +1,77 @@
+*{
+    font-family: 'Roboto Mono', monospace;
+    background-color: rgb (65, 66, 81);
+    padding-top: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+
+}
+
+
+
+body{  
+    background-color: rgb(65, 66, 81);
+
+}   
+nav ul{
+    list-style-type: none;
+    text-decoration: none;
+    margin : 0;
+    padding : 0; 
+    display : flex;
+    color: rgb(255, 255, 255);
+}
+
+nav ul a{ 
+    padding-left : 15%;
+    padding-bottom: 5%;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+hr{
+    border: 1;
+    padding : 0;
+    height: 1;
+    color: rgb(255, 255, 255);
+
+}
+main h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+    
+div.contenu{
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    margin: 5%;
+}
+
+div.contenu h3{
+    color: rgb(255, 255, 255);
+    
+}
+div.contenu p{
+    color: rgb(255, 255, 255);
+    
+}
+
+div.contenu i{
+       color: rgb(108, 192, 145);
+
+}
+
+.button{
+    position: absolute;    
+    top: 90%;
+    left: 45%;
+    color: rgb(108, 192, 145);
+    text-decoration: none;
+    border-radius: 15px
+    
+    
+}
+    
+

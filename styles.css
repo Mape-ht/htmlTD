@@ -19,12 +19,13 @@ nav ul{
     padding: left 0;
     padding: right 0;
     margin: 0;
-    display : flex ;
+    text-align: left;
     color: rgb(255, 255, 255);
 }
 
 nav ul a{ 
-    padding-left : 15%;
+    text-align: right;    
+    padding-left : 20%;
     padding-bottom: 5%;
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -40,7 +41,7 @@ hr{
 main h1{
     color: rgb(255, 255, 255);
     text-align: center;
-    font-stretch: 50%;
+    text-indent: 5%;
     padding: 0 ;
     margin-top: 8%;
     margin-bottom: 5%;
@@ -77,9 +78,14 @@ div.contenu i{
     position: absolute;    
     top: 90%;
     left: 45%;
-    color: rgb(108, 192, 145);
+    background: rgba(255,255,255,0);
+    border-color : rgb(108, 192, 145);
+    color: rgb(108, 192, 145); 
+    border-radius: 35%;
+    padding: 14px 28px;
     text-decoration: none;
-    border-radius: 15px
+}
+    
     
     
 }

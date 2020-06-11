@@ -11,31 +11,36 @@
       rel="stylesheet">
     <title>TD Html Css MAPE</title>
     <!-------------------intégrer la police font.google robot------------>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+
 </head>
+
 <body>
 
-<!---mettre p et nav dans le header sous forme de flexbox------->
-   
+<!--Mettre le p et le menu nav dans header-->
+    
+    <header>
+               
+        <p>P3 Web Dev Mobile</p>
+            
+        <nav >
+            
+            <ul class="main-nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+                
+        </nav>
+                     
+    </header>
 
-    <nav>
-        <ul>
-            <li>P3 Web Dev Mobile</li>
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
-
-        </ul>
-             
-    </nav>
-    <hr>     
-
-    <!-----mettre le contenu principal dans <main>----->
+        <!-----mettre le contenu principal dans <main>----->
     <main>
         <h1>TP Dev Web : HTML CSS</h1>
-        
+            
         <!-------inserer une class flex pour ranger --->
-         <!-----------afficher les icone solides ----->
+        <!-----------afficher les icone solides ----->
         <div class="contenu">
 
             <div>
@@ -47,7 +52,7 @@
 
             <div>
                 <a href="#"></a>
-                <i class="material-icons"style="font-size:30px;">computer</i>
+                <i class="material-icons md-36">computer</i>
                 <h3>DEVELOPPEMENT</h3>
                 <p>Class aptent taciti ad litora</p>
             </div>
@@ -58,16 +63,16 @@
                 <h3>DEBUGGING</h3>
                 <p>Nulla vitae mauris non felis</p>
             </div>
-        
+            
         </div>
     </main>    
-    <!--------GET STARTED sera stylisé dans la classe button et ramenera vers une autre page-->
-    <footer>
-        
-        <button class="button">GET STARTED</button>
+        <!--------GET STARTED sera stylisé dans la classe button et ramenera vers une autre page-->
+        <footer>
+            
+            <button class="button">GET STARTED</button>
 
-    </footer>        
+        </footer>        
 
-</body>
+    </body>
 
 </html>

@@ -1,49 +1,58 @@
-*{
-    font-family: 'Roboto Mono', monospace;
-    background-color: rgb (65, 66, 81);
-    padding-top: 1%;
-    padding: left 0;
-    padding: right 0;
-    margin: 0;
-}
-
-
 
 body{  
     background-color: rgb(65, 66, 81);
-
-}   
-nav ul{
-    list-style-type: none;
-    text-decoration: none;
-    padding: left 0;
-    padding: right 0;
+    font-family: 'PT Sans', sans-serif;
     margin: 0;
-    text-align: left;
-    color: rgb(255, 255, 255);
-}
+} 
 
-nav ul a{ 
-    text-align: right;    
-    padding-left : 20%;
-    padding-bottom: 5%;
+*{
+    padding: 0 0 ;   
+    margin: 0em;
+    list-style: none;
     text-decoration: none;
-    color: rgb(255, 255, 255);
-}
-
-hr{
-    border: 1;
-    padding : 0;
-    height: 1;
-    color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255) ;
+    box-sizing: border-box
 
 }
+header{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 2em;
+    
+   
+}
+
+header p{   
+    margin-right: auto;
+
+}
+
+header{
+    border-bottom: 2px solid rgba(255, 255, 255, 0.089);
+    margin-left: 5em;
+    margin-right: 5em;
+
+}
+.main-nav{ 
+    margin: 0;
+
+}    
+
+.main-nav li{
+    margin-left: 1em;
+    float: left;
+    padding-bottom: 2em;
+    padding-left: 1em ;
+    padding-right: 1em;
+}
+
+ 
 main h1{
     color: rgb(255, 255, 255);
     text-align: center;
     text-indent: 5%;
     padding: 0 ;
-    margin-top: 8%;
+    margin-top: 10%;
     margin-bottom: 5%;
 }
     
@@ -53,35 +62,48 @@ div.contenu{
     justify-content: center;
     justify-content: space-between;
     text-align: center;
-    padding-right: 2%;
-    padding-left: 2%;
+    margin-left: 7em;
+    margin-right: 7em;
+    padding-right: 4em;
+    padding-left: 4em;
+   
+      
+}
+
+.material-icons.md-36 { 
+    font-size: 36px; 
+
+}
+
+
+div.contenu i{
+    border-right : 1px solid rgba(255, 255, 255, 0.089);
+    color: rgb(108, 192, 145);   
+    
 }
 
 div.contenu h3{
-    color: rgb(255, 255, 255);
-    
+    color: rgba(255, 255, 255, 255);
+    border-right : 1px solid rgba(255, 255, 255, 0.089); 
+          
 }
 div.contenu p{
-    color: rgb(255, 255, 255);
-    font-family: 'Roboto Mono', monospace;
-    font-size: smaller;    
-}
-
-div.contenu i{
-       color: rgb(108, 192, 145);
-       margin: 0;
-       
-    
+    color: rgba(255, 255, 255, 0.534);
+    padding-right: 3em;
+    padding-left: 3em;
+    font-family: 'PT Sans', sans-serif;
+    font-size: smaller; 
+    border-right : 1px solid rgba(255, 255, 255, 0.089); 
 }
 
 .button{
     position: absolute;    
-    top: 90%;
+    top: 70%;
     left: 45%;
     background: rgba(255,255,255,0);
     border-color : rgb(108, 192, 145);
     color: rgb(108, 192, 145); 
-    border-radius: 35%;
+    border-radius: 3rem;
     padding: 14px 28px;
     text-decoration: none;
 }
